@@ -42,7 +42,7 @@
 		107E04A23316312DEE1DE9C6 /* Pods-rms-mobile-xdk-cocoapods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rms-mobile-xdk-cocoapods_Example.debug.xcconfig"; path = "Target Support Files/Pods-rms-mobile-xdk-cocoapods_Example/Pods-rms-mobile-xdk-cocoapods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		52239A0C4D0C18162A31312A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		562F7F762B354EF800552631 /* rms-mobile-xdk-cocoapods_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "rms-mobile-xdk-cocoapods_Example.entitlements"; sourceTree = "<group>"; };
-		5863F7FD61C55E343A416184 /* rms-mobile-xdk-cocoapods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "rms-mobile-xdk-cocoapods.podspec"; path = "../rms-mobile-xdk-cocoapods.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5863F7FD61C55E343A416184 /* fiuu-mobile-xdk-cocoapods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "fiuu-mobile-xdk-cocoapods.podspec"; path = "../fiuu-mobile-xdk-cocoapods.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* rms-mobile-xdk-cocoapods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rms-mobile-xdk-cocoapods_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -185,7 +185,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				5863F7FD61C55E343A416184 /* rms-mobile-xdk-cocoapods.podspec */,
+				5863F7FD61C55E343A416184 /* fiuu-mobile-xdk-cocoapods.podspec */,
 				DA9978C45C3FD8DA4D1EF188 /* README.md */,
 				52239A0C4D0C18162A31312A /* LICENSE */,
 			);
