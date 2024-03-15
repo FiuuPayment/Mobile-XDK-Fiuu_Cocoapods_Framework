@@ -7,7 +7,7 @@
 //
 
 #import "RMSViewController.h"
-#import <rms-mobile-xdk-cocoapods/MOLPayLib.h>
+#import <fiuu-mobile-xdk-cocoapods/MOLPayLib.h>
 
 @interface RMSViewController () <MOLPayLibDelegate>
 {
