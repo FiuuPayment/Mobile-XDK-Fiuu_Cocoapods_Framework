@@ -1,16 +1,16 @@
 PODS:
-  - rms-mobile-xdk-cocoapods (3.29.0)
+  - fiuu-mobile-xdk-cocoapods (3.33.8rc-1)
 
 DEPENDENCIES:
-  - rms-mobile-xdk-cocoapods (from `../`)
+  - fiuu-mobile-xdk-cocoapods (from `../`)
 
 EXTERNAL SOURCES:
-  rms-mobile-xdk-cocoapods:
+  fiuu-mobile-xdk-cocoapods:
     :path: "../"
 
 SPEC CHECKSUMS:
-  rms-mobile-xdk-cocoapods: b18fda4998e9401bc14d7efbe4f7a891ac9459f2
+  fiuu-mobile-xdk-cocoapods: 6c08c396e6f244878c3adff06643de9d95442ee8
 
-PODFILE CHECKSUM: 6f4caaf38cdf3b29c4c0219b787311e539fae4f0
+PODFILE CHECKSUM: 5044249d310d807705c2be99f05db0f1a0c72e70
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.14.3
