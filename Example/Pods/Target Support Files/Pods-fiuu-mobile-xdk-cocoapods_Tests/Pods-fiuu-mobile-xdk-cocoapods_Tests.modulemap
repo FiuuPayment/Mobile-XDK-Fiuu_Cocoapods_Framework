@@ -1,0 +1,6 @@
+framework module Pods_fiuu_mobile_xdk_cocoapods_Tests {
+  umbrella header "Pods-fiuu-mobile-xdk-cocoapods_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

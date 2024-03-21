@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'fiuu-mobile-xdk-cocoapods'
-  s.version          = '3.33.8rc-2'
+  s.version          = '3.33.8rc-3'
   s.summary          = 'Fiuu Mobile XDK.'
 
 # This description is used to generate tags and improve search results.

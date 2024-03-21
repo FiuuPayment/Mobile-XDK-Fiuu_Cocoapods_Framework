@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '12.0'
 
-target 'rms-mobile-xdk-cocoapods_Example' do
+target 'fiuu-mobile-xdk-cocoapods_Example' do
   pod 'fiuu-mobile-xdk-cocoapods', :path => '../'
 
-  target 'rms-mobile-xdk-cocoapods_Tests' do
+  target 'fiuu-mobile-xdk-cocoapods_Tests' do
     inherit! :search_paths
 
     
