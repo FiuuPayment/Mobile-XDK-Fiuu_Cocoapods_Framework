@@ -1,14 +1,14 @@
 <!--
- # license: Copyright © 2011-2024 Razer Merchant Services Sdn. All Rights Reserved. 
+ # license: Copyright © 2011-2026 Fiuu Sdn Bhd. All Rights Reserved. 
  -->
 
 <img src="https://user-images.githubusercontent.com/38641542/74150364-ba947500-4c44-11ea-8d79-ae8cd4352816.jpg">
 
 # [Mobile XDK] – Fiuu Cocoapods Framework
 
-This is the complete and functional Fiuu iOS payment module that is ready to be implemented into Xcode application project through Cocoapods framework. An example Cocoapods application project (Example) is provided for MOLPayXDK framework integration reference.
+This is the complete and functional Fiuu iOS payment module that is ready to be implemented into Xcode application project through Cocoapods framework. An example Cocoapods application project (Example) is provided for MobilePayXDK framework integration reference.
 
-这是完整的功能性 Fiuu iOS 支付模块，可以通过 Cocoapods 框架实现到 Xcode 应用程序项目中。为 MOLPayXDK 框架集成参考提供了一个示例 Cocoapods 应用程序项目（示例）。
+这是完整的功能性 Fiuu iOS 支付模块，可以通过 Cocoapods 框架实现到 Xcode 应用程序项目中。为 MobilePayXDK 框架集成参考提供了一个示例 Cocoapods 应用程序项目（示例）。
 
 ## Recommended configurations
 

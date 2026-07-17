@@ -7,11 +7,11 @@
 //
 
 #import "RMSViewController.h"
-#import <fiuu-mobile-xdk-cocoapods/MOLPayLib.h>
+#import <fiuu-mobile-xdk-cocoapods/MobilePayLib.h>
 
-@interface RMSViewController () <MOLPayLibDelegate>
+@interface RMSViewController () <MobilePayLibDelegate>
 {
-    MOLPayLib *mp;
+    MobilePayLib *mp;
     BOOL isCloseButtonClick;
     BOOL isPaymentInstructionPresent;
 }
@@ -20,15 +20,15 @@
 
 @implementation RMSViewController
 
-- (IBAction)closemolpay:(id)sender
+- (IBAction)closemobilepay:(id)sender
 {
-    // Closes MOLPay
-    [mp closemolpay];
-    
+    // Closes MobilePay
+    [mp closemobilepay];
+
     isCloseButtonClick = YES;
 }
 
-- (IBAction)startmolpay:(id)sender
+- (IBAction)startmobilepay:(id)sender
 {
     // Default setting for Cash channel payment result conditions
     isPaymentInstructionPresent = NO;
@@ -79,11 +79,11 @@
        // @"mp_ap_merchant_ID": @""
         };
     
-    mp = [[MOLPayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];
+    mp = [[MobilePayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];
     mp.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Close"
                                                                             style:UIBarButtonItemStylePlain
                                                                            target:self
-                                                                           action:@selector(closemolpay:)];
+                                                                           action:@selector(closemobilepay:)];
     mp.navigationItem.hidesBackButton = YES;
     if (@available(iOS 15.0, *)) {
         UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
@@ -110,10 +110,10 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Pay now"
                                                                              style:UIBarButtonItemStylePlain
                                                                             target:self
-                                                                            action:@selector(startmolpay:)];
+                                                                            action:@selector(startmobilepay:)];
 }
 
-// MOLPayLibDelegates
+// MobilePayLibDelegates
 - (void)transactionResult: (NSDictionary *)result
 {
     // Payment status results returned here
